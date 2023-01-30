@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    restart: always
+  
+  appsid:
+    build: sid/Dockerfile
+    env_file:
+      - sid/.env
+    restart: always

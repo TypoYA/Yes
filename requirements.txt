@@ -1,0 +1,8 @@
+pyTelegramBotAPI
+requests
+zeep
+libgravatar
+geopy
+xmltodict
+Wikipedia
+pycbrf
